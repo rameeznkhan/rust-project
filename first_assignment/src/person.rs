@@ -1,7 +1,7 @@
 #[derive(Debug)]
 pub struct Person{
     pub name: String,
-    pub age: u32
+    pub age: usize
 }
 
 #[derive(Debug, Clone)]
